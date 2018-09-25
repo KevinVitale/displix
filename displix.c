@@ -82,10 +82,8 @@ int main(int argc, char *const argv[]) {
                }
                break;
             case 'm': 
-               {
-                   options.modeIndex = atoi(optarg);
-                   break;
-               }
+               options.modeIndex = atoi(optarg);
+               break;
         }
     }
 
