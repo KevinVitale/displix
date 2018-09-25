@@ -34,6 +34,11 @@ Display count: 1
 	[0] 	2880	1800
 ```
 
+**NOTE**: Use `-d #` to specify the display, where `#` is the display 
+index printed by `displix`.
+
+<hr />
+
 #### How to build
 ```bash
 $ make
