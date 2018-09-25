@@ -181,7 +181,9 @@ guard settings.modeIndex < 0 else {
     exit(0)
 }
 
-displays.forEach {
-    $0.printModes(showingLowResolutions: settings.showLowRes)
+for (idx, display) in displays.enumerated() {
+    print("DISPLAY: \(idx)")
+    display.printModes(showingLowResolutions: settings.showLowRes)
+    print("")
 }
 
